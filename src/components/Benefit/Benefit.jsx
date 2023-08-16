@@ -21,7 +21,7 @@ const Benefit = () => {
         <ItemBenefit
           titleBenefit={"Networking"}
           description={
-            "El Google IO fomenta la creación de redes y la colaboración entre los asistentes y los oradores, lo que reúne las condiciones para el intercambio de ideas, la colaboración en proyectos y el establecimiento de relaciones profesionales duraderas en nuestra comunidad local."
+            "El DevFest  fomenta la creación de redes y la colaboración entre los asistentes y los oradores, lo que reúne las condiciones para el intercambio de ideas, la colaboración en proyectos y el establecimiento de relaciones profesionales duraderas en nuestra comunidad local."
           }
         ></ItemBenefit>
         <ItemBenefit

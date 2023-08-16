@@ -13,13 +13,13 @@ const About = () => {
       <div className="containerAbout">
         <div className="textContainerAbout">
           <h1>ACERCA DE</h1>
-          El Google IO es un evento diseñado para brindar una experiencia
+          El DevFest es un evento diseñado para brindar una experiencia
           enriquecedora y educativa a estudiantes de nivel secundaria y
           universitarios. Este evento será una oportunidad única para explorar
           una amplia gama de temas: tecnología, desarrollo personal, habilidades
           blandas, productividad y más.
           <p>
-            Google IO será un espacio inspirador donde el aprendizaje y la
+            DevFest Ica será un espacio inspirador donde el aprendizaje y la
             colaboración se unen, brindando a los asistentes una experiencia
             enriquecedora y la oportunidad de expandir sus conocimientos y
             conexiones en un ambiente estimulante.

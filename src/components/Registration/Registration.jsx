@@ -12,13 +12,13 @@ export const Registration = () => {
           </div>
           <div className="containerButtons">
             <a
-              href="https://forms.gle/MHFYVE7avjZzcdVA8"
+              href="https://gdg.community.dev/events/details/google-gdg-ica-presents-devfest-ica-2023/"
               target="_blank"
             >
               <button className="button btnRegistration">¡Regístrate!</button>
             </a>
             <br />
-            <a href="https://drive.google.com/file/d/1d9XRqfqKU3riytsJIYCKrwV5qoxlUomc/view?usp=sharing"  target="_blank">
+            <a href="#"  target="_blank">
               <button className="button btnCodeConduct">
                 Código de Conducta
               </button>

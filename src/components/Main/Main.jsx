@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div className="containerMain">
       <p className="tituloContainerMain">
-        Google IO Extended<p className="anioContainerMain">Ica</p>
+        DevFest Ica 2023<p className="anioContainerMain">Ica</p>
       </p>
       <a
         target="_blank"

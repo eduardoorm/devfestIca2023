@@ -7,6 +7,8 @@ import imgSebastian from "../../assets/speakers/sebastiaGomez.jpg";
 import imgJose from "../../assets/speakers/joseCarlos.jpg";
 import imgRafael from "../../assets/speakers/rafaelGonzales.jpg";
 import ItemScheduleSpeakerText from "./ItemScheduleSpeakerText";
+import imgPerfil from "../../assets/perfil.png";
+
 import ItemScheduleText from "./ItemScheduleText";
 const Schedule = () => {
   return (
@@ -18,44 +20,74 @@ const Schedule = () => {
           <div className="containerItemsSchedule">
             <ItemScheduleSpeakerText
               backgroundSolid={"#DB4437"}
-              imageUrl={imgPierre}
+              imageUrl={imgPerfil}
               hours={"9:30 AM"}
-              dateSession={"AGT 06"}
-              titleSession={"Introducción al desarrollo móvil con Flutter."}
-              nameSpeaker={"Pierre Guillen"}
+              dateSession={"DIC 02"}
+              titleSession={"Próximamente"}
+              nameSpeaker={""}
             />
-            <ItemScheduleSpeakerText
-              backgroundSolid={"#4285F4"}
-              imageUrl={imgJose}
-              hours={"10:15 AM"}
-              dateSession={"AGT 06"}
-              titleSession={"Primeros pasos en Notion."}
-              nameSpeaker={"JoseCarlos"}
-            />
-            <ItemScheduleSpeakerText
+                        <ItemScheduleSpeakerText
               backgroundSolid={"#DB4437"}
-              imageUrl={imgRafael}
-              hours={"11:00 AM"}
-              dateSession={"AGT 06"}
-              titleSession={"Inspirándonos en culturas prehispánicas para crear videojuegos de éxito."}
-              nameSpeaker={"Rafael Gonzales Otoya"}
+              imageUrl={imgPerfil}
+              hours={"10:15 AM"}
+              dateSession={"DIC 02"}
+              titleSession={"Próximamente"}
+              nameSpeaker={""}
+            />
+                        <ItemScheduleSpeakerText
+              backgroundSolid={"#DB4437"}
+              imageUrl={imgPerfil}
+              hours={"11:30 AM"}
+              dateSession={"DIC 02"}
+              titleSession={"Próximamente"}
+              nameSpeaker={""}
             />
               <ItemScheduleSpeakerText
-              backgroundSolid={"#0F9D56"}
-              imageUrl={imgSebastian}
-              hours={"11:45 AM"}
-              dateSession={"AGT 06"}
-              titleSession={"Aprende a desarrollar para la web utilizando todas las herramientas que google tiene para ti."}
-              nameSpeaker={"Sebastián Gomez"}
+              backgroundSolid={"#DB4437"}
+              imageUrl={imgPerfil}
+              hours={"12:15 PM"}
+              dateSession={"DIC 02"}
+              titleSession={"Próximamente"}
+              nameSpeaker={""}
             />
-            <ItemScheduleText
-              backgroundSolid={"#F4B400"}
-              backgroundLight={"#FAEDC9"}
-              hours={"12:30 PM"}
-              dateSession={"AGT 06"}
-              titleSession={"Cierre del Google IO Ica 2023"}
+              <ItemScheduleSpeakerText
+              backgroundSolid={"#DB4437"}
+              imageUrl={imgPerfil}
+              hours={"14:00 PM"}
+              dateSession={"DIC 02"}
+              titleSession={"Próximamente"}
+              nameSpeaker={""}
+            />
+
+          <ItemScheduleSpeakerText
+              backgroundSolid={"#DB4437"}
+              imageUrl={imgPerfil}
+              hours={"14:45 PM"}
+              dateSession={"DIC 02"}
+              titleSession={"Próximamente"}
+              nameSpeaker={""}
+            />
+
+            <ItemScheduleSpeakerText
+              backgroundSolid={"#DB4437"}
+              imageUrl={imgPerfil}
+              hours={"15:30 PM"}
+              dateSession={"DIC 02"}
+              titleSession={"Próximamente"}
+              nameSpeaker={""}
+            />
+
+            <ItemScheduleSpeakerText
+              backgroundSolid={"#DB4437"}
+              imageUrl={imgPerfil}
+              hours={"16:15 PM"}
+              dateSession={"DIC 02"}
+              titleSession={"Próximamente"}
+              nameSpeaker={""}
             />
           </div>
+
+          
       </div>
     </section>
   );

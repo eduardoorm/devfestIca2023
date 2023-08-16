@@ -12,7 +12,7 @@ const InformationBar = () => {
           ></ItemInformationBar>
           <ItemInformationBar
             backgroundColor={"#F09D00"}
-            textInformation={"#GoogleIO2023Ica"}
+            textInformation={"#DevFestIca"}
           ></ItemInformationBar>
           <ItemInformationBar
             backgroundColor={"#DC362E"}
