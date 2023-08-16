@@ -12,6 +12,8 @@ const Sponsor = () => {
         <h1 className="titleSectionSponsor">Patrocinado Por</h1>
         <div className="containerSponsors">
           <CardSponsor imageUrl={googleDevelopers}  href={'https://developers.google.com/'} />
+          <CardSponsor imageUrl={githubSponsor}  href={'https://developers.google.com/'} />
+
         </div>
       </div>
     </section>

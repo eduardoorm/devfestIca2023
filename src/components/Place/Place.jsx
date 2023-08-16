@@ -9,7 +9,7 @@ export const Place = () => {
           <div className="containerDirectionEvent">
             <div className="imgDirectionEvent"></div>
             <div className="containerTxtDirectionEvent">
-              Auditorio - Universdiad Tecnológica del Perú
+              Auditorio - Universidad Tecnológica del Perú.
             </div>
           </div>
           <div className="mapPlaceEvent">
