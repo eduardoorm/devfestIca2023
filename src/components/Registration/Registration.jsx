@@ -18,7 +18,7 @@ export const Registration = () => {
               <button className="button btnRegistration">¡Regístrate!</button>
             </a>
             <br />
-            <a href="#"  target="_blank">
+            <a href="https://drive.google.com/file/d/1vnzdY6vkmK4Y66buIrMXJH0ogV36jk6F/view?usp=sharing"  target="_blank">
               <button className="button btnCodeConduct">
                 Código de Conducta
               </button>

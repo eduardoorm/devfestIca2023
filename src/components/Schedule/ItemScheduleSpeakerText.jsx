@@ -1,6 +1,6 @@
 import React from "react";
-
-const ItemScheduleSpeakerText = ({ hours, nameSpeaker, dateSession, titleSession , imageUrl ,backgroundSolid }) => {
+import './ItemsSchedule.css'
+const ItemScheduleSpeakerText = ({ hours, nameSpeaker,roleSpeaker, dateSession, titleSession , imageUrl ,backgroundSolid }) => {
   return (
     <div className="containerItemSchedule">
       <div className="containerDateHourItemSchedule">
@@ -12,8 +12,10 @@ const ItemScheduleSpeakerText = ({ hours, nameSpeaker, dateSession, titleSession
       <div style={{borderLeftColor:backgroundSolid}} className="sessionInformationItemSchedule">
         <div style={{backgroundImage:`url(${imageUrl})`}} className="imgSpeakerItemSchedule"></div>
         <p className="titleSessionItemSchedule">
-          {titleSession} <br />
           <span className="nameSpeakerItemSchedule">{nameSpeaker}</span>
+          <span className="nameTalk">"{titleSession}"</span> 
+          <br/>
+          <span className="rolSpeaker">{roleSpeaker}</span>
         </p>
       </div>
     </div>

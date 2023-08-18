@@ -78,7 +78,30 @@
   margin: 0.7em;
   background-color: #81bced;
   color: black;
+  font-weight: 600;
+  color: white;
 }
+
+.btnDay1 {
+  background-color: #e87229;
+}
+
+.btnDay2{
+  background-color: #3383f4;
+}
+
+.btnDay3{
+  background-color: #15cf46;
+}
+
+.btnDay4{
+  background-color: #ebcc08;
+}
+
+.btnDay5{
+  background-color: #cf1919;
+}
+
 
 .btnDays:hover {
   background-color: rgb(228, 225, 225);
